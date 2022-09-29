@@ -28,7 +28,7 @@ console.log("Hello!")
 
  
 document.getElementById("bttn-start").onclick = function () {
-    location.href = "../game.html";
+    location.href = "https://jesusretana15.github.io/rockpapers/game.html";
 };
 
 
