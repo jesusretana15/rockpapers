@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1024">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="game.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box-body">
+        <div id="player">
+            <h1>PLAYER</h1>
+            <div id="buttons">
+                <button class="choicebtn" name="rock"  >🪨</button>
+                <button class="choicebtn" name="paper"  >📄</button>
+                <button class="choicebtn" name="scissors" >✂️</button>
+            </div>
+            <div id="points">
+                <h1>POINTS</h1>
+                <p id="points-user"></p>
+            </div>
+        </div>
+        <div id="computer">
+            <H1>COMPUTER</H1>
+            <div id="selection">
+                <button id="rockpc" >🪨</button>
+                <button id="paperpc" >📄</button>
+                <button  id="scissorspc">✂️</button>
+            </div> 
+            <div id="points">
+                <h1>POINTS</h1>
+                <p id="points-pc"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./game.js"></script>
+</body>
+</html>

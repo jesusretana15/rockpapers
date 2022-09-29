@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+}
+
+
+body{
+    border: 10px ;
+    margin: 0%;
+    background-color: black;
+    font-family: 'Bungee Spice', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, red, orange);
+}
+
+#box-body {
+    background-color: black;
+    height: 99%;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    font-family: 'Bungee Spice', cursive;
+    background-color: black;
+    height: 6.875rem;
+    width: 21.875rem;
+    font-size: 5.625rem;
+    border: none;
+}
+
+button:hover{
+    box-shadow: rgba(226, 68, 0, 0.25) 0px 30px 60px 10px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+    border-radius: .3125rem;
+}
