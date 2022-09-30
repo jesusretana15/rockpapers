@@ -34,7 +34,7 @@ function startGame() {
             } else {
                 alert("you won")
             }
-            location.href = "../index.html";
+            location.href = "https://jesusretana15.github.io/rockpapers/";
             
         }
 
